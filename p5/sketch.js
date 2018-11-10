@@ -1,9 +1,4 @@
-var ship;
-var asteroids = [];
-var density = 5;
-var score = 0;
-var canvas;
-var divCanvas;
+let canvas,
 
 function setup(){
   divCanvas = select("#canvas");

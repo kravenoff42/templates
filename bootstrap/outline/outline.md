@@ -1,4 +1,5 @@
-asteroids
+<!--Used to Outline Project-->
+{title}
 =================
 
 Outline
@@ -20,17 +21,21 @@ Outline
 ## Overview
 > **What's the basic idea?**
 
-This is a simple Asteroids clone, made in p5.js to teach my self some OOP in JavaScript.
+
 
 ## Audience
 > **Who is this meant for?**
 
-Personal exercise
+Me :)
+
+> **What do they say about the idea?**
+
+
 
 ## Platform
 > **Where will this live?**
 
-gh-pages
+Github Pages
 
 ## Credits
 > **Who is helping?**
@@ -38,39 +43,33 @@ gh-pages
 The Team:
 - Me (obviously)
 
+> **Who will maintain it?**
+
+Me
+
 ## Technologies
 > **What tools will be needed?**
 
 The Tools:
-- p5.js
-- Github Pages
+- Tools
 
 ## Core Functionality
 > **What is the minimum viable product?**
 
 The Checklist:
-- Ship
-- Asteroids
-- Bullets
-- Score
+- list
 
 ## Timeframe
 > **How long assuming a part-time schedule?**
 
-6 hours
+timeframe
+
+> **Due Date**
+
+None
 
 ## Bonus Points
 > **What might get added if at all possible?**
 
 The Wishlist:
-1. Lives
-2. Explosion effect
-3. Game over conditions
-4. Bombs
-5. Baddies
-6. Levels
-7. Save Game
-8. High Score Table
-9. Multi player mode
-10. Refactor to Node.js
-11. Add DB for storage of scores
+1. wish
