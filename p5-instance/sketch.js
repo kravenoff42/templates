@@ -1,20 +1,21 @@
-var divCanvas;
-var canvas;
-var divInput;
-var printBtn;
-var updateBtn;
-var updateTxt;
-var pagesNum = 1;
+window.onload=()=>{main()};
+let canvas, divCanvas, divInput, title;
 
-window.onload=function(){
-  printBtn = document.querySelector('#printBtn');
-  updateBtn = document.querySelector('#updateBtn');
-  updateTxt = document.querySelector('#updateTxt');
-  divCanvas = document.querySelector('#canvas');
-  divInput = document.querySelector('#input');
-  printBtn.addEventListener('click', printPicture, false);
-  updateBtn.addEventListener('click', updateSelection, false);
-  main();
+const main = ()=>{
+	divInput = document.getElementById("divInput");
+	divOutput = document.getElementById("divOutput");
+	title = document.getElementById("title");
+
+}
+
+function setup(){
+  canvas = createCanvas(800, 800);
+  canvas.parent(divCanvas);
+  noLoop();
+  background(0);
+}
+
+function draw(){
 
 }
 
